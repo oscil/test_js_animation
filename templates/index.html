@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src={{ url_for('static', filename='jquery-3.3.1.js') }}></script>
+    <script src={{ url_for('static', filename='script.js') }}></script>
+    <style type="text/css">
+        canvas{
+            border: 1px solid black;
+            box-sizing: border-box;
+        }
+
+        body{
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+<canvas>
+
+</canvas>
+<script src={{ url_for('static', filename='canvas.js') }}></script>
+
+{#<h1>Hello index!</h1>#}
+{#<button onclick="btnClick()">Try it</button>#}
+{#<button onclick="btnClickGetAllDivs()">get all divs</button>#}
+{#<button onclick="btnClickTryJQuery()">try jquery</button>#}
+{#<button onclick="btnClickGetFromFolder()">get data from folder</button>#}
+{#<button onclick="btnClickSetCookie()">set cookie</button>#}
+{#<button onclick="btnClickGetCookie()">get cookie</button>#}
+{#<div>div 1</div>#}
+{#<div>div 2</div>#}
+
+</body>
+</html>
